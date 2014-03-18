@@ -79,13 +79,15 @@ documentation will at all times remain with copyright holders.
 Webbot defaults (scope = global)
 ----------------------------------------------------------------------*/
 # Define how your webbot will appear in server logs
-define("WEBBOT_NAME", "Test Webbot");
+define("WEBBOT_NAME", "Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X)".
+                      " AppleWebKit/536.26 (KHTML, like Gecko)".
+                      " Version/6.0 Mobile/10A5355d Safari/8536.25");
 
 # Length of time cURL will wait for a response (seconds)
 define("CURL_TIMEOUT", 25);
 
 # Location of your cookie file. (Must be fully resolved local address)
-define("COOKIE_FILE", "c:\cookie.txt");
+define("COOKIE_FILE", "/tmp/cookie.txt");
 
 # DEFINE METHOD CONSTANTS
 define("HEAD", "HEAD");
