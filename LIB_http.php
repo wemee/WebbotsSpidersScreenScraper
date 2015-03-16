@@ -38,6 +38,7 @@ documentation will at all times remain with copyright holders.
 ########################################################################
 */
 
+/*
 #-----------------------------------------------------------------------
 # LIB_http
 #
@@ -74,6 +75,7 @@ documentation will at all times remain with copyright holders.
 #    $return_array['STATUS'] = CURL generated status of transfer
 #    $return_array['ERROR']  = CURL generated error status
 ########################################################################
+*/
 
 /***********************************************************************
 Webbot defaults (scope = global)
