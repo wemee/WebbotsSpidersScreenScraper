@@ -18,10 +18,11 @@ if (isset($_GET["target"])) {
 
 	$result = http_header($target, $ref);
 	if (strpos($result['FILE'], '404 Not Found') !== false) {
-	    echo '404';
+	    echo 'false';
 	} else {
-		$result = http_get($target, $ref);
-		echo $result['FILE'];
+		echo 'true';
+		// $result = http_get($target, $ref);
+		// echo $result['FILE'];
 	}
 	// var_dump($result);
 } else {

@@ -86,7 +86,7 @@ define("WEBBOT_NAME", "Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X)".
                       " Version/6.0 Mobile/10A5355d Safari/8536.25");
 
 # Length of time cURL will wait for a response (seconds)
-define("CURL_TIMEOUT", 25);
+define("CURL_TIMEOUT", 30);
 
 # Location of your cookie file. (Must be fully resolved local address)
 define("COOKIE_FILE", "/tmp/cookie.txt");
